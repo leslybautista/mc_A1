@@ -61,188 +61,6 @@ header{
 }
 
 
-.home .main {
-  background-image: url(../media/front2.png);
-  background-size: cover;
-  background-position: top right;
-  background-repeat: no-repeat;
-  height: 100vh;
-  max-height: 650px; 
-  overflow: hidden;
-  margin: 0px;
-  padding: 0px;
-}
-
-.home .main .frontpage h1 {
-  padding-left: 40px;
-  padding-top: 70px;
-  font-size: 60px;
-  font-family: 'Franklin Gothic Medium';
-  font-weight: bold;
-  color: white;
-}
-
-.home .main .frontpage p  {
-  padding-left: 40px;
-  font-size: 25px;
-  font-family: 'Helvetica';
-  color: white;
-}
-
-.home .main .frontpage .start {
-  display: inline-block;
-  margin-left: 40px;
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 20px;
-  outline-color: white;
-  outline: 2px solid white;
-  font-family: 'Helvetica';
-  color: white;
-  background-color: #389A8C;
-  border-radius: 2px;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-}
-
-.home .main .frontpage .start:hover {
-  background-color: #9CA2D1;
-  text-decoration: none;
-}
-
-.home .intro{
-  background-color: rgb(221, 233, 241);
-  padding: 30px 20px;
-  text-align: center;
-}
-
-.home .intro h2{
-  color: black;
-  font-size: 40px;
-  font-family:'roboto';
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.home .concept{
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 25px;
-
-}
-
-.home .box{
-  background-color: #9CA2D1;  ;
-  border-radius: 8px;
-  margin: 0px 25px 20px 25px;
-  padding: 30px;
-}
-
-.home .box h3 {
-  color: white;
-  font-size: 25px;;
-  font-family:'roboto';
-}
-
-.home .box p {
-  color: black;
-  font-size: 17px;
-  margin: 0px 10px 10px 10px;
-  font-family:'roboto';
-  text-align: justify;
-}
-
-.home .second {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-
-.home .second .second-box{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 50px;
-  margin-top: 25px;
-  text-align: center;
-}
-
-.home .second .second-box h2{
-  color: white;
-  font-size: 40px;
-  font-family:'roboto';
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.home .second .second-box p{
-  color: white;
-  font-size: 17px;
-  margin: 0px 80px 50px 80px;
-  font-family: 'roboto';
-  text-align: justify;
-}
-
-.home .second .second-box img{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 0px;
-}
-
-.home .second .visit{
-  margin-top: 0px;
-  margin-bottom: 5px;
-  display: inline-block;
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 20px;
-  outline-color: white;
-  outline: 2px solid white;
-  font-family: 'Helvetica';
-  color: white;
-  background-color: #389A8C;
-  border-radius: 2px;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-}
-
-.home .second .visit:hover {
-  background-color: #9CA2D1;
-  text-decoration: none;
-  color: white;
-
-}
-
-.home footer a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Franklin Gothic Medium';
-  font-weight: bold;
-}
-
-.home footer a:hover {
-  text-decoration: underline;
-}
-
-.home footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #002E74;
-  width: 100%;
-  color: rgb(207, 207, 207);
-  font-family: 'roboto';
-  font-size: 14px;
-  text-decoration: none;
-  padding: 15px 0px 15px 0px;
-}
-
-.home footer p{
-  margin: 0px;
-  padding: 0px 10px 0px 10px;
-}
 
 /* MAP */
 
@@ -359,4 +177,34 @@ header{
   font-family: 'roboto';
   text-align: justify;
 
+}
+
+.home footer a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Franklin Gothic Medium';
+  font-weight: bold;
+}
+
+.home footer a:hover {
+  text-decoration: underline;
+}
+
+.home footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #002E74;
+  width: 100%;
+  color: rgb(207, 207, 207);
+  font-family: 'roboto';
+  font-size: 14px;
+  text-decoration: none;
+  padding: 15px 0px 15px 0px;
+}
+
+.home footer p{
+  margin: 0px;
+  padding: 0px 10px 0px 10px;
 }
